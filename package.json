@@ -1,0 +1,32 @@
+{
+  "name": "tms-koa-portfinder",
+  "version": "0.0.1",
+  "description": "tms-koa 的控制器插件，用于分配本地端口资源。",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@log4js-node/log4js-api": "^1.0.2",
+    "nanoid": "^3.1.9",
+    "portfinder": "^1.0.26"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "tms-koa": "^0.0.42"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasony62/tms-koa-portfinder.git"
+  },
+  "keywords": [],
+  "author": "jasony62",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasony62/tms-koa-portfinder/issues"
+  },
+  "homepage": "https://github.com/jasony62/tms-koa-portfinder#readme"
+}
